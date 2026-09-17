@@ -3,69 +3,209 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Shaik Mijwa Anjum | Portfolio</title>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Portfolio of Shaik Mijwa Anjum - B.Tech Information Technology student, developer and problem solver.">
+
+    <title>Shaik Mijwa Anjum | Developer Portfolio</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- NAVIGATION -->
-    <header>
-        <nav class="navbar">
 
-            <div class="logo">
-                Anjum<span>.</span>
+<!-- ========================================
+     NAVBAR
+======================================== -->
+
+<header class="header">
+
+    <nav class="navbar container">
+
+        <a href="#home" class="logo">
+            Anjum<span>.</span>
+        </a>
+
+
+        <ul class="nav-links" id="navLinks">
+
+            <li>
+                <a href="#home" class="nav-link active">
+                    Home
+                </a>
+            </li>
+
+            <li>
+                <a href="#about" class="nav-link">
+                    About
+                </a>
+            </li>
+
+            <li>
+                <a href="#skills" class="nav-link">
+                    Skills
+                </a>
+            </li>
+
+            <li>
+                <a href="#projects" class="nav-link">
+                    Projects
+                </a>
+            </li>
+
+            <li>
+                <a href="#education" class="nav-link">
+                    Education
+                </a>
+            </li>
+
+            <li>
+                <a href="#certifications" class="nav-link">
+                    Certifications
+                </a>
+            </li>
+
+            <li>
+                <a href="#contact" class="nav-link">
+                    Contact
+                </a>
+            </li>
+
+        </ul>
+
+
+        <div class="nav-actions">
+
+            <button
+                id="themeToggle"
+                class="icon-button"
+                aria-label="Toggle dark mode">
+
+                ☾
+
+            </button>
+
+
+            <button
+                id="menuButton"
+                class="menu-button"
+                aria-label="Open menu">
+
+                ☰
+
+            </button>
+
+        </div>
+
+    </nav>
+
+</header>
+
+
+
+<!-- ========================================
+     HERO
+======================================== -->
+
+<main>
+
+<section id="home" class="hero">
+
+    <div class="container hero-grid">
+
+
+        <!-- LEFT -->
+
+        <div class="hero-content reveal">
+
+            <div class="availability-badge">
+
+                <span class="status-dot"></span>
+
+                Open to Internship & Entry-Level Opportunities
+
             </div>
 
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#certifications">Certifications</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
 
-        </nav>
-    </header>
-
-
-    <!-- HOME -->
-    <section id="home" class="hero">
-
-        <div class="hero-content">
-
-            <p class="small-title">
-                B.Tech Information Technology Student
+            <p class="eyebrow">
+                B.TECH INFORMATION TECHNOLOGY • 2027
             </p>
+
 
             <h1>
+
                 Hi, I'm
-                <span>Shaik Mijwa Anjum</span>
+
+                <span>
+                    Shaik Mijwa Anjum
+                </span>
+
             </h1>
 
+
             <h2>
-                Web Development Enthusiast & Problem Solver
+
+                I build practical software solutions and enjoy solving
+                challenging technical problems.
+
             </h2>
 
-            <p class="intro">
-                Penultimate-year B.Tech (IT) student with a strong academic
-                foundation in data structures, software development and
-                cloud computing.
+
+            <p class="hero-description">
+
+                Penultimate-year Information Technology student with
+                experience in software development, web technologies,
+                cloud fundamentals, problem solving and AI/ML concepts.
+
             </p>
+
+
+            <div class="hero-tags">
+
+                <span>Java</span>
+
+                <span>Python</span>
+
+                <span>Web Development</span>
+
+                <span>AWS</span>
+
+                <span>Problem Solving</span>
+
+            </div>
+
 
             <div class="hero-buttons">
 
-                <a href="#projects" class="btn primary-btn">
-                    View My Projects
+                <a
+                    href="#projects"
+                    class="btn primary-btn">
+
+                    View My Work
+
                 </a>
 
-                <a href="#contact" class="btn secondary-btn">
-                    Contact Me
+
+                <a
+                    href="resume.pdf"
+                    class="btn secondary-btn"
+                    download>
+
+                    Download Resume ↓
+
+                </a>
+
+
+                <a
+                    href="#contact"
+                    class="btn text-btn">
+
+                    Let's Connect →
+
                 </a>
 
             </div>
@@ -73,602 +213,1611 @@
         </div>
 
 
-        <div class="profile-card">
 
-            <div class="profile-circle">
-                SMA
-            </div>
+        <!-- RIGHT -->
 
-            <h3>650+</h3>
+        <div class="hero-dashboard reveal">
 
-            <p>CodeChef Problems Solved</p>
+            <div class="profile-panel">
 
-            <div class="stats">
 
-                <div>
-                    <strong>8.32</strong>
-                    <span>CGPA</span>
+                <div class="profile-top">
+
+                    <div class="profile-avatar">
+                        SMA
+                    </div>
+
+
+                    <div>
+
+                        <p class="profile-status">
+                            Developer Portfolio
+                        </p>
+
+                        <h3>
+                            Shaik Mijwa Anjum
+                        </h3>
+
+                        <p>
+                            Information Technology
+                        </p>
+
+                    </div>
+
                 </div>
 
-                <div>
-                    <strong>2027</strong>
-                    <span>Graduation</span>
+
+                <div class="code-window">
+
+                    <div class="code-dots">
+
+                        <span></span>
+                        <span></span>
+                        <span></span>
+
+                    </div>
+
+
+                    <pre>
+<span class="code-purple">const</span> candidate = {
+  <span class="code-blue">role</span>: <span class="code-green">"IT Student"</span>,
+  <span class="code-blue">cgpa</span>: <span class="code-orange">8.32</span>,
+  <span class="code-blue">problemsSolved</span>: <span class="code-orange">650+</span>,
+  <span class="code-blue">graduation</span>: <span class="code-orange">2027</span>,
+  <span class="code-blue">goal</span>: <span class="code-green">"Build. Learn. Grow."</span>
+};
+                    </pre>
+
+                </div>
+
+
+                <div class="mini-stats">
+
+                    <div>
+
+                        <strong
+                            class="counter"
+                            data-target="650">
+
+                            0
+
+                        </strong>
+
+                        <span>
+                            Problems Solved
+                        </span>
+
+                    </div>
+
+
+                    <div>
+
+                        <strong>
+                            8.32
+                        </strong>
+
+                        <span>
+                            CGPA
+                        </span>
+
+                    </div>
+
+
+                    <div>
+
+                        <strong>
+                            2027
+                        </strong>
+
+                        <span>
+                            Graduation
+                        </span>
+
+                    </div>
+
                 </div>
 
             </div>
 
         </div>
 
-    </section>
+    </div>
+
+</section>
 
 
-    <!-- ABOUT -->
-    <section id="about" class="section">
 
-        <div class="section-title">
-            <p>ABOUT ME</p>
-            <h2>A little about me</h2>
-        </div>
+<!-- ========================================
+     QUICK HIGHLIGHTS
+======================================== -->
 
-        <div class="about-container">
+<section class="highlights">
 
-            <div class="about-text">
-
-                <p>
-                    I am a B.Tech Information Technology student at
-                    Vasireddy Venkatadri Institute Of Technology (JNTUK),
-                    pursuing my degree from 2023 to 2027.
-                </p>
-
-                <p>
-                    I have a strong interest in software development,
-                    web development, cloud computing and problem solving.
-                    I enjoy building practical projects and learning
-                    new technologies.
-                </p>
-
-                <p>
-                    I have solved more than 650 problems on CodeChef,
-                    demonstrating my analytical and algorithmic
-                    problem-solving abilities.
-                </p>
-
-            </div>
+    <div class="container highlights-grid">
 
 
-            <div class="about-box">
+        <div class="highlight-item reveal">
 
-                <div>
-                    <strong>Degree</strong>
-                    <p>B.Tech - Information Technology</p>
-                </div>
+            <span class="highlight-number">
+                01
+            </span>
 
-                <div>
-                    <strong>College</strong>
-                    <p>
-                        Vasireddy Venkatadri Institute Of Technology
-                    </p>
-                </div>
+            <div>
 
-                <div>
-                    <strong>CGPA</strong>
-                    <p>8.32</p>
-                </div>
-
-                <div>
-                    <strong>Graduation</strong>
-                    <p>2027</p>
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- SKILLS -->
-    <section id="skills" class="section light-section">
-
-        <div class="section-title">
-
-            <p>MY SKILLS</p>
-
-            <h2>
-                Technologies & Skills
-            </h2>
-
-        </div>
-
-
-        <div class="skills-container">
-
-            <div class="skill-card">
-
-                <div class="skill-icon">
-                    &lt;/&gt;
-                </div>
-
-                <h3>Programming</h3>
+                <h3>
+                    Problem Solver
+                </h3>
 
                 <p>
-                    Python, Java, C, SQL, HTML,
-                    CSS and JavaScript
-                </p>
-
-            </div>
-
-
-            <div class="skill-card">
-
-                <div class="skill-icon">
-                    WEB
-                </div>
-
-                <h3>Web Development</h3>
-
-                <p>
-                    HTML, CSS, JavaScript,
-                    React and REST APIs
-                </p>
-
-            </div>
-
-
-            <div class="skill-card">
-
-                <div class="skill-icon">
-                    CLOUD
-                </div>
-
-                <h3>Cloud & Platforms</h3>
-
-                <p>
-                    AWS Cloud Foundations,
-                    Linux (Ubuntu) and Windows
-                </p>
-
-            </div>
-
-
-            <div class="skill-card">
-
-                <div class="skill-icon">
-                    AI
-                </div>
-
-                <h3>AI / ML</h3>
-
-                <p>
-                    Multi-Agent LLM Systems,
-                    AutoGen GroupChat,
-                    Prompt Engineering,
-                    Random Forest and XGBoost
-                </p>
-
-            </div>
-
-
-            <div class="skill-card">
-
-                <div class="skill-icon">
-                    DSA
-                </div>
-
-                <h3>Software Engineering</h3>
-
-                <p>
-                    Data Structures & Algorithms,
-                    REST APIs, SSE Streaming,
-                    Git, Debugging and Documentation
-                </p>
-
-            </div>
-
-
-            <div class="skill-card">
-
-                <div class="skill-icon">
-                    TOOLS
-                </div>
-
-                <h3>Tools</h3>
-
-                <p>
-                    React, VS Code,
-                    Jupyter Notebook and Matplotlib
+                    650+ CodeChef problems completed.
                 </p>
 
             </div>
 
         </div>
 
-    </section>
 
+        <div class="highlight-item reveal">
 
-    <!-- PROJECTS -->
-    <section id="projects" class="section">
+            <span class="highlight-number">
+                02
+            </span>
 
-        <div class="section-title">
+            <div>
 
-            <p>MY PROJECTS</p>
+                <h3>
+                    Project Builder
+                </h3>
 
-            <h2>
-                Projects I've worked on
-            </h2>
+                <p>
+                    Practical web, IoT and software projects.
+                </p>
+
+            </div>
 
         </div>
 
 
-        <div class="projects-container">
+        <div class="highlight-item reveal">
+
+            <span class="highlight-number">
+                03
+            </span>
+
+            <div>
+
+                <h3>
+                    Continuous Learner
+                </h3>
+
+                <p>
+                    NPTEL, Google Cloud and Infosys certifications.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="highlight-item reveal">
+
+            <span class="highlight-number">
+                04
+            </span>
+
+            <div>
+
+                <h3>
+                    Cloud Exposure
+                </h3>
+
+                <p>
+                    AWS Cloud Foundations and platform skills.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ========================================
+     ABOUT
+======================================== -->
+
+<section id="about" class="section">
+
+    <div class="container">
+
+
+        <div class="section-heading reveal">
+
+            <div>
+
+                <p class="eyebrow">
+                    ABOUT ME
+                </p>
+
+                <h2>
+                    More than a resume.
+                    <span>
+                        Here's what drives me.
+                    </span>
+                </h2>
+
+            </div>
+
+
+            <p class="heading-description">
+
+                I enjoy converting ideas into working solutions,
+                improving my technical skills and learning technologies
+                that solve real-world problems.
+
+            </p>
+
+        </div>
+
+
+        <div class="about-grid">
+
+
+            <div class="about-main reveal">
+
+                <h3>
+                    Developer. Learner. Problem Solver.
+                </h3>
+
+
+                <p>
+
+                    I am pursuing B.Tech in Information Technology at
+                    Vasireddy Venkatadri Institute Of Technology under JNTUK.
+
+                </p>
+
+
+                <p>
+
+                    My interests include software development, web
+                    development, cloud computing, data structures,
+                    automation and modern AI technologies.
+
+                </p>
+
+
+                <p>
+
+                    I enjoy building practical projects that simplify
+                    real-world processes and continuously strengthening
+                    my problem-solving ability through coding practice.
+
+                </p>
+
+
+                <div class="about-actions">
+
+                    <a
+                        href="#projects"
+                        class="btn primary-btn">
+
+                        Explore Projects
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="about-info reveal">
+
+
+                <div class="info-card">
+
+                    <span>
+                        Degree
+                    </span>
+
+                    <strong>
+                        B.Tech IT
+                    </strong>
+
+                </div>
+
+
+                <div class="info-card">
+
+                    <span>
+                        College
+                    </span>
+
+                    <strong>
+                        VVIT
+                    </strong>
+
+                </div>
+
+
+                <div class="info-card">
+
+                    <span>
+                        Current CGPA
+                    </span>
+
+                    <strong>
+                        8.32
+                    </strong>
+
+                </div>
+
+
+                <div class="info-card">
+
+                    <span>
+                        Graduation
+                    </span>
+
+                    <strong>
+                        2027
+                    </strong>
+
+                </div>
+
+
+                <div class="info-card">
+
+                    <span>
+                        Languages
+                    </span>
+
+                    <strong>
+                        English • Telugu • Hindi
+                    </strong>
+
+                </div>
+
+
+                <div class="info-card">
+
+                    <span>
+                        Focus
+                    </span>
+
+                    <strong>
+                        Software & Cloud
+                    </strong>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ========================================
+     SKILLS
+======================================== -->
+
+<section id="skills" class="section alternate-section">
+
+    <div class="container">
+
+
+        <div class="section-heading reveal">
+
+            <div>
+
+                <p class="eyebrow">
+                    TECHNICAL TOOLKIT
+                </p>
+
+                <h2>
+                    Skills that help me
+                    <span>
+                        build and solve.
+                    </span>
+                </h2>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="skill-tabs reveal">
+
+            <button
+                class="skill-tab active"
+                data-category="all">
+
+                All Skills
+
+            </button>
+
+            <button
+                class="skill-tab"
+                data-category="programming">
+
+                Programming
+
+            </button>
+
+            <button
+                class="skill-tab"
+                data-category="web">
+
+                Web
+
+            </button>
+
+            <button
+                class="skill-tab"
+                data-category="cloud">
+
+                Cloud
+
+            </button>
+
+            <button
+                class="skill-tab"
+                data-category="ai">
+
+                AI / ML
+
+            </button>
+
+        </div>
+
+
+
+        <div class="skills-grid">
+
+
+            <article
+                class="skill-card reveal"
+                data-category="programming">
+
+                <div class="skill-card-top">
+
+                    <span class="skill-symbol">
+                        &lt;/&gt;
+                    </span>
+
+                    <span class="skill-level">
+                        CORE
+                    </span>
+
+                </div>
+
+                <h3>
+                    Programming Languages
+                </h3>
+
+                <div class="skill-badges">
+
+                    <span>Java</span>
+
+                    <span>Python</span>
+
+                    <span>C</span>
+
+                    <span>SQL</span>
+
+                </div>
+
+            </article>
+
+
+
+            <article
+                class="skill-card reveal"
+                data-category="web">
+
+                <div class="skill-card-top">
+
+                    <span class="skill-symbol">
+                        WEB
+                    </span>
+
+                    <span class="skill-level">
+                        BUILD
+                    </span>
+
+                </div>
+
+                <h3>
+                    Web Development
+                </h3>
+
+                <div class="skill-badges">
+
+                    <span>HTML</span>
+
+                    <span>CSS</span>
+
+                    <span>JavaScript</span>
+
+                    <span>React</span>
+
+                    <span>REST APIs</span>
+
+                </div>
+
+            </article>
+
+
+
+            <article
+                class="skill-card reveal"
+                data-category="cloud">
+
+                <div class="skill-card-top">
+
+                    <span class="skill-symbol">
+                        ☁
+                    </span>
+
+                    <span class="skill-level">
+                        CLOUD
+                    </span>
+
+                </div>
+
+                <h3>
+                    Cloud & Platforms
+                </h3>
+
+                <div class="skill-badges">
+
+                    <span>AWS Cloud Foundations</span>
+
+                    <span>Linux</span>
+
+                    <span>Ubuntu</span>
+
+                    <span>Windows</span>
+
+                </div>
+
+            </article>
+
+
+
+            <article
+                class="skill-card reveal"
+                data-category="ai">
+
+                <div class="skill-card-top">
+
+                    <span class="skill-symbol">
+                        AI
+                    </span>
+
+                    <span class="skill-level">
+                        EXPLORE
+                    </span>
+
+                </div>
+
+                <h3>
+                    AI / ML
+                </h3>
+
+                <div class="skill-badges">
+
+                    <span>Multi-Agent LLM</span>
+
+                    <span>AutoGen GroupChat</span>
+
+                    <span>Prompt Engineering</span>
+
+                    <span>Random Forest</span>
+
+                    <span>XGBoost</span>
+
+                </div>
+
+            </article>
+
+
+
+            <article
+                class="skill-card reveal"
+                data-category="programming">
+
+                <div class="skill-card-top">
+
+                    <span class="skill-symbol">
+                        DSA
+                    </span>
+
+                    <span class="skill-level">
+                        SOLVE
+                    </span>
+
+                </div>
+
+                <h3>
+                    Software Engineering
+                </h3>
+
+                <div class="skill-badges">
+
+                    <span>Data Structures</span>
+
+                    <span>Algorithms</span>
+
+                    <span>Debugging</span>
+
+                    <span>Documentation</span>
+
+                    <span>SSE Streaming</span>
+
+                </div>
+
+            </article>
+
+
+
+            <article
+                class="skill-card reveal"
+                data-category="web">
+
+                <div class="skill-card-top">
+
+                    <span class="skill-symbol">
+                        DEV
+                    </span>
+
+                    <span class="skill-level">
+                        TOOLS
+                    </span>
+
+                </div>
+
+                <h3>
+                    Developer Tools
+                </h3>
+
+                <div class="skill-badges">
+
+                    <span>Git</span>
+
+                    <span>VS Code</span>
+
+                    <span>Jupyter Notebook</span>
+
+                    <span>Matplotlib</span>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ========================================
+     PROJECTS
+======================================== -->
+
+<section id="projects" class="section">
+
+    <div class="container">
+
+
+        <div class="section-heading reveal">
+
+            <div>
+
+                <p class="eyebrow">
+                    SELECTED PROJECTS
+                </p>
+
+                <h2>
+                    Things I've
+                    <span>
+                        built.
+                    </span>
+                </h2>
+
+            </div>
+
+
+            <p class="heading-description">
+
+                Projects where I applied software development,
+                automation and problem-solving concepts.
+
+            </p>
+
+        </div>
+
+
+
+        <div class="project-filters reveal">
+
+            <button
+                class="project-filter active"
+                data-filter="all">
+
+                All
+
+            </button>
+
+            <button
+                class="project-filter"
+                data-filter="iot">
+
+                IoT
+
+            </button>
+
+            <button
+                class="project-filter"
+                data-filter="web">
+
+                Web
+
+            </button>
+
+        </div>
+
+
+
+        <div class="projects-grid">
 
 
             <!-- PROJECT 1 -->
 
-            <div class="project-card">
+            <article
+                class="project-card reveal"
+                data-project="iot">
 
-                <div class="project-number">
-                    01
+
+                <div class="project-visual green-project">
+
+                    <span>
+                        PROJECT 01
+                    </span>
+
+                    <div class="visual-icon">
+                        🌱
+                    </div>
+
+                    <p>
+                        Smart Agriculture & Protection
+                    </p>
+
                 </div>
 
-                <span class="project-tag">
-                    IoT • Embedded Systems • Automation
-                </span>
 
-                <h3>
-                    Green Village
-                </h3>
+                <div class="project-content">
 
-                <h4>
-                    Smart Tree Protection & Plantation App
-                </h4>
+                    <div class="project-meta">
 
-                <p>
-                    Designed an automated smart agriculture system
-                    to monitor soil moisture, temperature and humidity
-                    in real time.
-                </p>
+                        <span>
+                            IoT
+                        </span>
 
-                <ul>
+                        <span>
+                            Embedded Systems
+                        </span>
 
-                    <li>
-                        Implemented intelligent irrigation to optimize
-                        water usage and improve plant growth.
-                    </li>
+                        <span>
+                            Automation
+                        </span>
 
-                    <li>
-                        Built sensor-based protection mechanisms and
-                        alerts to detect and prevent tree/crop damage.
-                    </li>
+                    </div>
 
-                    <li>
-                        Developed an integrated application for smart
-                        plantation monitoring and resource management.
-                    </li>
 
-                </ul>
+                    <h3>
+                        Green Village
+                    </h3>
 
-            </div>
+
+                    <h4>
+                        Smart Tree Protection & Plantation App
+                    </h4>
+
+
+                    <p>
+
+                        Automated smart agriculture solution for
+                        monitoring soil moisture, temperature and
+                        humidity in real time.
+
+                    </p>
+
+
+                    <ul>
+
+                        <li>
+                            Intelligent irrigation for optimized water usage.
+                        </li>
+
+                        <li>
+                            Sensor-based alerts for tree and crop protection.
+                        </li>
+
+                        <li>
+                            Application-based plantation monitoring.
+                        </li>
+
+                    </ul>
+
+
+                    <div class="project-footer">
+
+                        <span>
+                            Role: Developer
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </article>
+
 
 
             <!-- PROJECT 2 -->
 
-            <div class="project-card">
+            <article
+                class="project-card reveal"
+                data-project="web">
 
-                <div class="project-number">
+
+                <div class="project-visual hostel-project">
+
+                    <span>
+                        PROJECT 02
+                    </span>
+
+                    <div class="visual-icon">
+                        🏢
+                    </div>
+
+                    <p>
+                        Digital Hostel Management
+                    </p>
+
+                </div>
+
+
+                <div class="project-content">
+
+                    <div class="project-meta">
+
+                        <span>
+                            Java
+                        </span>
+
+                        <span>
+                            Web Development
+                        </span>
+
+                        <span>
+                            DBMS
+                        </span>
+
+                    </div>
+
+
+                    <h3>
+                        Hostel Verse
+                    </h3>
+
+
+                    <h4>
+                        Smart Digital Hostel Ecosystem
+                    </h4>
+
+
+                    <p>
+
+                        Centralized platform designed to digitize hostel
+                        operations including room allocation, attendance,
+                        complaints and communication.
+
+                    </p>
+
+
+                    <ul>
+
+                        <li>
+                            Centralized hostel management.
+                        </li>
+
+                        <li>
+                            Student and administration communication.
+                        </li>
+
+                        <li>
+                            Digital attendance and complaint workflows.
+                        </li>
+
+                    </ul>
+
+
+                    <div class="project-footer">
+
+                        <span>
+                            Role: Developer
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ========================================
+     PROBLEM SOLVING
+======================================== -->
+
+<section class="coding-section">
+
+    <div class="container coding-grid">
+
+
+        <div class="coding-content reveal">
+
+            <p class="eyebrow">
+                PROBLEM SOLVING
+            </p>
+
+            <h2>
+                Consistency beyond
+                <span>
+                    coursework.
+                </span>
+            </h2>
+
+            <p>
+
+                Coding practice has helped me strengthen logical thinking,
+                algorithms and confidence in approaching unfamiliar
+                programming problems.
+
+            </p>
+
+
+            <a
+                href="https://www.codechef.com/"
+                target="_blank"
+                rel="noopener"
+                class="btn secondary-btn">
+
+                Visit CodeChef
+
+            </a>
+
+        </div>
+
+
+
+        <div class="coding-score reveal">
+
+            <div class="coding-score-ring">
+
+                <div>
+
+                    <strong>
+                        650+
+                    </strong>
+
+                    <span>
+                        Problems
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <p>
+                CodeChef problems solved
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ========================================
+     EDUCATION
+======================================== -->
+
+<section id="education" class="section alternate-section">
+
+    <div class="container">
+
+
+        <div class="section-heading reveal">
+
+            <div>
+
+                <p class="eyebrow">
+                    EDUCATION
+                </p>
+
+                <h2>
+                    My academic
+                    <span>
+                        journey.
+                    </span>
+                </h2>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="timeline">
+
+
+            <article class="timeline-item reveal">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-card">
+
+                    <div class="timeline-top">
+
+                        <span>
+                            2023 — 2027
+                        </span>
+
+                        <strong>
+                            CGPA 8.32
+                        </strong>
+
+                    </div>
+
+                    <h3>
+                        B.Tech — Information Technology
+                    </h3>
+
+                    <p>
+                        Vasireddy Venkatadri Institute Of Technology
+                        (JNTUK), Andhra Pradesh
+                    </p>
+
+                </div>
+
+            </article>
+
+
+
+            <article class="timeline-item reveal">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-card">
+
+                    <div class="timeline-top">
+
+                        <span>
+                            2023
+                        </span>
+
+                        <strong>
+                            94%
+                        </strong>
+
+                    </div>
+
+                    <h3>
+                        Intermediate
+                    </h3>
+
+                    <p>
+                        Sri Chaitanya Junior College,
+                        Andhra Pradesh
+                    </p>
+
+                </div>
+
+            </article>
+
+
+
+            <article class="timeline-item reveal">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-card">
+
+                    <div class="timeline-top">
+
+                        <span>
+                            2021
+                        </span>
+
+                        <strong>
+                            99.5%
+                        </strong>
+
+                    </div>
+
+                    <h3>
+                        SSC
+                    </h3>
+
+                    <p>
+                        Sri Chaitanya Techno School,
+                        Andhra Pradesh
+                    </p>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ========================================
+     CERTIFICATIONS
+======================================== -->
+
+<section id="certifications" class="section">
+
+    <div class="container">
+
+
+        <div class="section-heading reveal">
+
+            <div>
+
+                <p class="eyebrow">
+                    CERTIFICATIONS
+                </p>
+
+                <h2>
+                    Learning beyond the
+                    <span>
+                        classroom.
+                    </span>
+                </h2>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="certifications-grid">
+
+
+            <article class="certificate-card reveal">
+
+                <div class="certificate-number">
+                    01
+                </div>
+
+                <div>
+
+                    <span>
+                        NPTEL • 2025
+                    </span>
+
+                    <h3>
+                        Programming in Java
+                    </h3>
+
+                </div>
+
+            </article>
+
+
+
+            <article class="certificate-card reveal">
+
+                <div class="certificate-number">
                     02
                 </div>
 
-                <span class="project-tag">
-                    Java • Web Development • DBMS
-                </span>
+                <div>
 
-                <h3>
-                    Hostel Verse
-                </h3>
+                    <span>
+                        NPTEL • 2024
+                    </span>
 
-                <h4>
-                    Smart Digital Hostel Ecosystem
-                </h4>
+                    <h3>
+                        Joy of Computing using Python
+                    </h3>
 
-                <p>
-                    Built a centralized platform for hostel management
-                    including room allocation, attendance and complaint
-                    tracking.
-                </p>
-
-                <ul>
-
-                    <li>
-                        Enabled real-time communication between students
-                        and administration.
-                    </li>
-
-                    <li>
-                        Digitized manual hostel processes.
-                    </li>
-
-                    <li>
-                        Improved operational efficiency through
-                        centralized management.
-                    </li>
-
-                </ul>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- EDUCATION -->
-    <section id="education" class="section light-section">
-
-        <div class="section-title">
-
-            <p>EDUCATION</p>
-
-            <h2>
-                My Academic Journey
-            </h2>
-
-        </div>
-
-
-        <div class="education-container">
-
-            <div class="education-card">
-
-                <span>2023 - 2027</span>
-
-                <h3>
-                    B.Tech - Information Technology
-                </h3>
-
-                <p>
-                    Vasireddy Venkatadri Institute Of Technology
-                    (JNTUK), Andhra Pradesh
-                </p>
-
-                <strong>
-                    CGPA: 8.32
-                </strong>
-
-            </div>
-
-
-            <div class="education-card">
-
-                <span>2023</span>
-
-                <h3>
-                    Intermediate
-                </h3>
-
-                <p>
-                    Sri Chaitanya Junior College,
-                    Andhra Pradesh
-                </p>
-
-                <strong>
-                    Percentage: 94%
-                </strong>
-
-            </div>
-
-
-            <div class="education-card">
-
-                <span>2021</span>
-
-                <h3>
-                    SSC
-                </h3>
-
-                <p>
-                    Sri Chaitanya Techno School,
-                    Andhra Pradesh
-                </p>
-
-                <strong>
-                    Percentage: 99.5%
-                </strong>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- CERTIFICATIONS -->
-    <section id="certifications" class="section">
-
-        <div class="section-title">
-
-            <p>CERTIFICATIONS</p>
-
-            <h2>
-                My Certifications
-            </h2>
-
-        </div>
-
-
-        <div class="certifications-container">
-
-            <div class="certificate-card">
-                <h3>Programming in Java</h3>
-                <p>NPTEL • 2025</p>
-            </div>
-
-            <div class="certificate-card">
-                <h3>Joy of Computing using Python</h3>
-                <p>NPTEL • 2024</p>
-            </div>
-
-            <div class="certificate-card">
-                <h3>Generative AI</h3>
-                <p>Google Cloud • 2024</p>
-            </div>
-
-            <div class="certificate-card">
-                <h3>Springboard Program (Java)</h3>
-                <p>Infosys Springboard • 2025</p>
-            </div>
-
-            <div class="certificate-card">
-                <h3>Java Programming</h3>
-                <p>CodeTantra • 2025</p>
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- ACHIEVEMENTS -->
-    <section class="section light-section">
-
-        <div class="section-title">
-
-            <p>ACHIEVEMENTS</p>
-
-            <h2>
-                Highlights
-            </h2>
-
-        </div>
-
-
-        <div class="achievement-container">
-
-            <div class="achievement-card">
-
-                <div class="achievement-number">
-                    650+
                 </div>
+
+            </article>
+
+
+
+            <article class="certificate-card reveal">
+
+                <div class="certificate-number">
+                    03
+                </div>
+
+                <div>
+
+                    <span>
+                        Google Cloud • 2024
+                    </span>
+
+                    <h3>
+                        Generative AI
+                    </h3>
+
+                </div>
+
+            </article>
+
+
+
+            <article class="certificate-card reveal">
+
+                <div class="certificate-number">
+                    04
+                </div>
+
+                <div>
+
+                    <span>
+                        Infosys Springboard • 2025
+                    </span>
+
+                    <h3>
+                        Springboard Program — Java
+                    </h3>
+
+                </div>
+
+            </article>
+
+
+
+            <article class="certificate-card reveal">
+
+                <div class="certificate-number">
+                    05
+                </div>
+
+                <div>
+
+                    <span>
+                        CodeTantra • 2025
+                    </span>
+
+                    <h3>
+                        Java Programming
+                    </h3>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ========================================
+     ACHIEVEMENTS
+======================================== -->
+
+<section class="section achievements-section">
+
+    <div class="container">
+
+
+        <div class="section-heading reveal">
+
+            <div>
+
+                <p class="eyebrow">
+                    ACHIEVEMENTS
+                </p>
+
+                <h2>
+                    Milestones that reflect
+                    <span>
+                        consistency.
+                    </span>
+                </h2>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="achievements-grid">
+
+
+            <article class="achievement-card reveal">
+
+                <div class="achievement-icon">
+                    &lt;/&gt;
+                </div>
+
+                <strong>
+                    650+
+                </strong>
 
                 <h3>
                     CodeChef Problems
                 </h3>
 
                 <p>
-                    Solved 650+ problems on CodeChef,
-                    demonstrating strong problem-solving
-                    and algorithmic skills.
+                    Consistent algorithmic and programming practice.
                 </p>
 
-            </div>
+            </article>
 
 
-            <div class="achievement-card">
 
-                <div class="achievement-number">
+            <article class="achievement-card reveal">
+
+                <div class="achievement-icon">
+                    ⚡
+                </div>
+
+                <strong>
                     HACK
-                </div>
+                </strong>
 
                 <h3>
-                    Hackathons
+                    Hackathon Participation
                 </h3>
 
                 <p>
-                    Actively participated in hackathons,
-                    gaining experience in real-world
-                    problem solving and collaboration.
+                    Experience working on practical ideas and solutions.
                 </p>
 
-            </div>
+            </article>
 
 
-            <div class="achievement-card">
 
-                <div class="achievement-number">
+            <article class="achievement-card reveal">
+
+                <div class="achievement-icon">
+                    ✦
+                </div>
+
+                <strong>
                     SILVER
-                </div>
+                </strong>
 
                 <h3>
-                    Silver Medal
+                    Canva Design Medal
                 </h3>
 
                 <p>
-                    Secured a Silver Medal for designing
-                    high-quality templates on Canva.
+                    Recognized for creating high-quality Canva templates.
                 </p>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ========================================
+     CONTACT
+======================================== -->
+
+<section id="contact" class="section contact-section">
+
+    <div class="container">
+
+
+        <div class="contact-card reveal">
+
+
+            <div class="contact-copy">
+
+                <p class="eyebrow">
+                    LET'S CONNECT
+                </p>
+
+                <h2>
+                    Have an opportunity or project in mind?
+                </h2>
+
+                <p>
+
+                    I'm interested in internships, entry-level opportunities,
+                    collaborative projects and conversations around software,
+                    cloud and technology.
+
+                </p>
+
+
+                <div class="contact-buttons">
+
+                    <a
+                        href="mailto:anjumsk2005@gmail.com"
+                        class="btn light-btn">
+
+                        Email Me
+
+                    </a>
+
+
+                    <a
+                        href="resume.pdf"
+                        download
+                        class="btn outline-light-btn">
+
+                        Download Resume
+
+                    </a>
+
+                </div>
 
             </div>
 
-        </div>
-
-    </section>
-
-
-    <!-- CONTACT -->
-    <section id="contact" class="section contact-section">
-
-        <div class="section-title">
-
-            <p>CONTACT ME</p>
-
-            <h2>
-                Let's Connect
-            </h2>
-
-        </div>
-
-
-        <div class="contact-container">
-
-            <p>
-                Feel free to connect with me for opportunities,
-                projects and professional discussions.
-            </p>
 
 
             <div class="contact-details">
 
+
                 <a href="mailto:anjumsk2005@gmail.com">
-                    📧 anjumsk2005@gmail.com
+
+                    <span>
+                        Email
+                    </span>
+
+                    <strong>
+                        anjumsk2005@gmail.com
+                    </strong>
+
                 </a>
+
 
                 <a href="tel:+917569367561">
-                    📱 +91 7569367561
-                </a>
 
-            </div>
+                    <span>
+                        Phone
+                    </span>
 
+                    <strong>
+                        +91 7569367561
+                    </strong>
 
-            <div class="social-links">
-
-                <!-- ADD YOUR LINKEDIN URL HERE -->
-
-                <a href="#" target="_blank">
-                    LinkedIn
                 </a>
 
 
-                <!-- ADD YOUR GITHUB URL HERE -->
+                <a
+                    href="https://github.com/anjumsk2005-lab"
+                    target="_blank"
+                    rel="noopener">
 
-                <a href="#" target="_blank">
-                    GitHub
+                    <span>
+                        GitHub
+                    </span>
+
+                    <strong>
+                        anjumsk2005-lab
+                    </strong>
+
+                </a>
+
+
+                <!--
+                Replace # with your LinkedIn profile URL
+                when you have it.
+                -->
+
+                <a href="#">
+
+                    <span>
+                        LinkedIn
+                    </span>
+
+                    <strong>
+                        Add LinkedIn Profile
+                    </strong>
+
                 </a>
 
             </div>
 
         </div>
 
-    </section>
+    </div>
+
+</section>
+
+</main>
 
 
-    <!-- FOOTER -->
-    <footer>
+
+<!-- ========================================
+     FOOTER
+======================================== -->
+
+<footer>
+
+    <div class="container footer-content">
+
+        <div>
+
+            <a href="#home" class="logo">
+                Anjum<span>.</span>
+            </a>
+
+            <p>
+                Building, learning and growing through technology.
+            </p>
+
+        </div>
+
 
         <p>
-            © 2026 Shaik Mijwa Anjum | Portfolio Website
+            © 2026 Shaik Mijwa Anjum
         </p>
 
-    </footer>
+    </div>
+
+</footer>
+
+
+
+<!-- BACK TO TOP -->
+
+<button
+    id="backToTop"
+    class="back-to-top"
+    aria-label="Back to top">
+
+    ↑
+
+</button>
+
+
+<script src="script.js"></script>
 
 </body>
 
