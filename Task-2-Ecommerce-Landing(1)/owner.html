@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>StyleNest | Owner Dashboard</title><link rel="stylesheet" href="style.css"></head>
+<body><div id="header"></div><main class="container">
+<div class="breadcrumb">Home › Owner Dashboard</div>
+<div id="owner-locked" class="notice"></div>
+<section id="owner-content" class="owner-content" style="display:none">
+<h1>👑 Owner Dashboard</h1>
+<p class="muted">Only the owner account can add, edit or delete products.</p>
+<div class="owner-form panel"><h2 id="form-title">Add New Product</h2>
+<input type="hidden" id="edit-id">
+<div class="form-grid">
+<input id="p-name" placeholder="Product name"><input id="p-price" type="number" placeholder="Price (₹)">
+<input id="p-old" type="number" placeholder="Old price (₹)"><input id="p-category" placeholder="Category (Fashion/Electronics/Home/Beauty)">
+<input id="p-image" placeholder="Image URL"><input id="p-rating" type="number" step=".1" min="1" max="5" placeholder="Rating">
+</div><textarea id="p-description" placeholder="Product description"></textarea>
+<button class="btn yellow" onclick="saveProduct()">Save Product</button>
+<button class="btn" onclick="clearForm()">Clear</button>
+</div>
+<div class="panel"><h2>Manage Products</h2><div class="table-wrap"><table><thead><tr><th>Product</th><th>Category</th><th>Price</th><th>Actions</th></tr></thead><tbody id="owner-products"></tbody></table></div></div>
+</section></main><div id="footer"></div><script src="script.js"></script></body></html>
